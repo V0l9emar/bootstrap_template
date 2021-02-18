@@ -1,0 +1,106 @@
+header {
+	background: #1a1d20;
+}
+.slider {
+	height: 70vh;
+	background: url('img/everest.jpg') bottom center/cover no-repeat fixed;
+	overflow: hidden;
+}
+#rog1, #rog2 {
+	background: #2ec3e3;
+	height: 100px;
+	width: 50%;
+}
+#rog1 {
+	transform: translate(0, -80px) skew(0, 6deg);
+}
+#rog2 {
+	transform: translate(100%, -180px) skew(0, -6deg);
+}
+.slider h2 {
+	font: normal 2.2em 'Open Sans', sans-serif !important;
+}
+.features {
+	background: #2ec3e3;
+}
+#separator div {
+	height: 10px;
+}
+h3 {
+	font: normal 1.9em 'Open Sans', sans-serif !important;
+	line-height: 21px;
+	font-weight: 300;
+}
+.features h4 {
+	font: bold 1.1em 'Open Sans', sans-serif !important;
+	
+}
+p {
+	font: normal .9em 'Open Sans', sans-serif !important;
+}
+.features img {
+	padding: 10px 0;
+}
+
+/*------------------------MAIN------------------------------*/
+
+main {
+	background: #f5f5f5;
+}
+.work > div {
+	height: 30vh;
+	//border: 1px solid red;
+}
+.f1 {
+	background: url('img/cert.jpg') center center/cover no-repeat;
+}
+.f2 {
+	background: url('img/iphone.jpg') center center/cover no-repeat;
+}
+.f3 {
+	background: url('img/welcome.jpg') center center/cover no-repeat;
+}
+.f4 {
+	background: url('img/inside.jpg') center center/cover no-repeat;
+}
+.f5 {
+	background: url('img/john.jpg') center center/cover no-repeat;
+}
+.f6 {
+	background: url('img/shirt.jpg') center center/cover no-repeat;            
+}
+
+/*-----------------------Testimonial--------------------------*/
+
+.citata {
+	background: url('img/testim.jpg') center/cover no-repeat;
+}
+
+/*-------------------------NEWS-------------------------------*/
+
+#news {
+	background: #1a1d20;
+}
+
+/*--------------------------TWEET-----------------------------*/
+
+#tweet {
+	background: url('img/tweet.jpg') center center/cover no-repeat;
+	//height: 40vh;
+	text-align: center;
+}
+
+
+/*--------------------------FOLLOW-----------------------------*/
+#follow {
+	background: #111314;
+}
+#follow i {
+	color: white;
+}
+
+/*----------------------------FOOTER---------------------------*/
+
+footer {
+	background: #000;
+}
